@@ -49,6 +49,7 @@ public class User implements Serializable {
     private Date createDate;
     @Column(name = "last_login_date")
     private Date lastLoginDate;
+
     @Transient
     private List<String> roles = new ArrayList<>();
 }
